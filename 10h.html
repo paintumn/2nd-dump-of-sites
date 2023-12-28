@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Projects</title>
+    <link rel="stylesheet" href="10h.css">
+  </head>
+  <body>
+    <!--<p>YouTube Subscribe Button</p>
+    <button onclick="
+      subscribe();
+    " class="js-subscribe-button subscribe-button">
+      Subscribe
+    </button>
+-->
+    <p>Amazon Shipping Calculator</p>
+    <input placeholder="Cost of order" class="js-cost-input cost-input" onkeydown="
+      handleCostKeydown(event);
+    ">
+
+    <button class="calculate-button" onclick="
+      calculateTotal();
+    ">Calculate</button>
+
+    <p class="js-total-cost js-error-code"></p>
+
+    <script src="10h.js">
+    </script>
+  </body>
+</html>
